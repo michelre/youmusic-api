@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src -d dist",
     "build:watch": "babel src -d dist --watch",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "start": "node dist/app.js"
   },
   "keywords": [],
   "author": "Remi Michel <remi.michel38@gmail.com>",
